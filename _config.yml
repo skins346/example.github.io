@@ -1,0 +1,63 @@
+# Site Info
+title: Codinfox Lanyon
+tagline: 'Hei,To be Better Man'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="https://githubziven.github.io" target="_blank">@codinfox</a>.'
+baseurl: ""
+url: https://githubziven.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: 哲吻先生
+  description: IT Engineer, like  <strong>photography</strong>,</br>愿阳光中是个孩子,风雨中是个大人.
+  gravatar: 71fa42ba3a1acebd440552ccb0fdb2fc # md5 hash of your email address
+  contact:
+  # linkedin:  https://www.linkedin.com/in/wei-zhong-b10955146/
+    github:    https://github.com/githubziven
+    # facebook:  <hide>
+    #twitter:   https://twitter.com/Li_Zhihao
+    #weibo:     http://weibo.com/41173780
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01QqGF9_GZxJOnroYap3cruQ==&c=jspxsuzRvQSEqOHIIPQAKMCJZ4KtsWknqoKmDvhO7Hc=
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://github.com/githubziven'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-102678965-1' # leave blank if you don't want google analytics
+disqus_short_name: 'zivenday-me-1' # leave blank if you don't want disqus
+
